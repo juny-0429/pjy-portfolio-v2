@@ -62,21 +62,21 @@ export const mainConnectCss = {
     align-items: center;
     gap: 15px;
 
-    p {
+    span {
       font-size: 20px;
       font-weight: 500;
     }
 
     ${theme.media.pc} {
-      gap: 20px;
+      gap: 16px;
 
       svg {
         width: 25px;
         height: 25px;
       }
 
-      p {
-        font-size: 25px;
+      ruby-span {
+        font-size: 28px;
       }
     }
   `,
