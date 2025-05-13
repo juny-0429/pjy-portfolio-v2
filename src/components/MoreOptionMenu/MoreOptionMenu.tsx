@@ -25,14 +25,14 @@ export default function MoreOptionMenu() {
     <nav css={moreOptionMenuCss.wrapper}>
       {/* More 버튼 */}
       <button type="button" css={moreOptionMenuCss.moreOptionMenu} onClick={onMoreToggle}>
-        <FeatherIcons.MoreVertical />
+        <FeatherIcons.MoreVertical fill="white" />
       </button>
 
       {/* 옵션 메뉴들 */}
       <div css={[moreOptionMenuCss.optionsContainer, isOpen ? moreOptionMenuCss.showOptions : moreOptionMenuCss.hideOptions]} style={{ display: isDisplayed ? 'flex' : 'none' }}>
         {/* 메일 바로 보내기 */}
         <button type="button" css={moreOptionMenuCss.moreOptionMenu} onClick={() => (window.location.href = 'mailto:example@example.com')}>
-          <FeatherIcons.Mail />
+          <FeatherIcons.Mail fill="white" />
         </button>
 
         {/* 다국어 */}
@@ -40,7 +40,7 @@ export default function MoreOptionMenu() {
 
         {/* 다크 모드 */}
         <button type="button" css={moreOptionMenuCss.moreOptionMenu} onClick={toggleThemeMode}>
-          {themeMode === 'dark' ? <FeatherIcons.Moon /> : <FeatherIcons.Sun />}
+          {themeMode === 'dark' ? <FeatherIcons.Moon fill="white" /> : <FeatherIcons.Sun fill="white" />}
         </button>
 
         {/* 최상단으로 이동하기 */}

@@ -20,7 +20,7 @@ export default function MultiLanguageMenu() {
   return (
     <>
       <button type="button" css={moreOptionMenuCss.moreOptionMenu} onClick={toggleDrawer}>
-        <FeatherIcons.Globe />
+        <FeatherIcons.Globe fill="white" />
       </button>
 
       <Drawer title={t('title')} direction="bottom" isOpen={isOpen} onToggle={toggleDrawer}>
