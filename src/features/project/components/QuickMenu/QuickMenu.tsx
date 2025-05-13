@@ -17,7 +17,7 @@ export default function QuickMenu() {
     <nav css={[quickMenuCss.wrapper, commonCss.onlyPcVisibleBlock, themeMode === 'dark' && darkModeCss.darkModeBackground]}>
       <ul>
         {quickMenuList.map((menu) => (
-          <Link key={menu.value} to={menu.value} spy={true} smooth={true} duration={100} offset={-400} onSetActive={() => setActiveSection(menu.value)}>
+          <Link key={menu.value} to={menu.value} spy={true} smooth={true} duration={100} offset={-300} isDynamic={true} onSetActive={() => setActiveSection(menu.value)}>
             <li css={[quickMenuCss.menu, activeSection === menu.value && quickMenuCss.activeMenu]}>{locale === 'ko' ? menu.label_ko : menu.label_en}</li>
           </Link>
         ))}

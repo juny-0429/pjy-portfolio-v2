@@ -123,6 +123,8 @@ export default function ProjectDetail() {
                 </Element>
               ))}
           </div>
+
+          <div css={{ height: '400px' }} />
         </div>
 
         {/* Quick Menu */}

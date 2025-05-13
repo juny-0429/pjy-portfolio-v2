@@ -166,11 +166,9 @@ export const projectDetailCss = {
     flex-direction: column;
     align-items: flex-start;
     gap: 150px;
-    padding: 0 0 300px;
 
     ${theme.media.pc} {
       gap: 150px;
-      padding: 0 0 500px;
     }
   `,
 
