@@ -111,8 +111,8 @@ export const projectDetailCss = {
 
     ${theme.media.pc} {
       svg {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
       }
     }
   `,
@@ -122,7 +122,7 @@ export const projectDetailCss = {
     font-weight: 500;
 
     ${theme.media.pc} {
-      font-size: 35px;
+      font-size: 30px;
     }
   `,
 

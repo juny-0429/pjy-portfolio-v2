@@ -63,8 +63,12 @@ export default function ProjectDetail() {
             <section css={projectDetailCss.infoWrapper}>
               <h2 css={projectDetailCss.infoTitle}>인원</h2>
               <div css={projectDetailCss.memberWrapper}>
-                <span css={projectDetailCss.member}>{project.Member}</span>
-                <FeatherIcons.Users width={16} height={16} color={theme.colors.mainLightBlack} />
+                <span css={projectDetailCss.member}>{project.member}</span>
+                {project.member === 1 ? (
+                  <FeatherIcons.User width={16} height={16} color={theme.colors.mainLightBlack} />
+                ) : (
+                  <FeatherIcons.Users width={16} height={16} color={theme.colors.mainLightBlack} />
+                )}
               </div>
             </section>
 

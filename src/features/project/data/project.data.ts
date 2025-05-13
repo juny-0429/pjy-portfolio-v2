@@ -38,8 +38,8 @@ export const projectListData = [
       { LinkIcon: FeatherIcons.Monitor, url: '' },
       { LinkIcon: GithubIcon, url: 'https://github.com/juny-0429/pjy-portfolio-v2' },
     ],
-    Member: 1,
-    description: '최신 기술을 반영하여 성장과 경험을 담아낸 포트폴리오 v2입니다.',
+    member: 1,
+    description: 'Next.js Pages Router 기반으로 다크모드, 반응형 UI, 다국어 지원까지 구현한 개인 프론트엔드 실습 프로젝트입니다.',
     detail: {
       프로젝트목표: [
         'Next.js를 활용한 효율적인 웹 애플리케이션 구축',
@@ -70,7 +70,7 @@ export const projectListData = [
     team_ko: '코드인디자인',
     date: '24.07.22 ~ 24.08.09',
     skills: ['REACT', 'TYPESCRIPT', 'EMOTION', 'CHAKRA_UI', 'REACT_QUERY', 'RECOIL', 'FIGMA', 'GITHUB'],
-    Member: 4,
+    member: 4,
     description: 'React와 React Query, Google Maps를 사용하여 지도 마커를 통해 지점 관리를 할 수 있는 프로젝트',
     detail: {
       프로젝트목표: 'React와 React Query, Google Maps를 사용하여 지도 마커를 통해 지점 관리를 할 수 있는 프로젝트',
@@ -93,7 +93,7 @@ export const projectListData = [
     team_ko: '코드인디자인',
     date: '24.07.01 ~ 24.07.05',
     skills: ['SOLAPI', 'NEXT', 'FIGMA', 'GITHUB'],
-    Member: 1,
+    member: 1,
     description: '',
     detail: {
       프로젝트목표: '',
@@ -112,7 +112,7 @@ export const projectListData = [
     team_ko: '코드인디자인',
     date: '24.06.01 ~ 24.08.01',
     skills: ['VUE', 'TYPESCRIPT', 'SCSS', 'CHART_JS', 'TANSTACK_TABLE', 'VUETIFY', 'PINIA', 'FIGMA', 'GITHUB'],
-    Member: 2,
+    member: 2,
     description:
       'Typescript와 Sass(Scss)를 활용한 어드민 페이지 개발 프로젝트로, Pinia와 Tanstack Query를 통한 상태 관리, Vue Router를 사용한 라우팅, Tanstack Table과 Vuetify 기반의 UI 컴포넌트를 적용하여 구현되었습니다.',
     detail: {
@@ -141,7 +141,7 @@ export const projectListData = [
     date: '24.03.01 ~ 24.05.31',
     skills: ['NEXT', 'RTK', 'AG_GRID', 'CHAKRA_UI', 'STORYBOOK', 'TYPESCRIPT', 'SWIPER', 'FIGMA', 'GITHUB'],
     link: [{ LinkIcon: FeatherIcons.Monitor, url: 'https://z-one.kr/' }],
-    Member: 3,
+    member: 3,
     description:
       'Z-ONE 프로젝트는 체육대학 입시에 특화된 정보 제공 및 합격 예측 플랫폼을 개발하는 프로젝트입니다. 입시 데이터 분석을 통해 수집한 정보를 바탕으로, 체육대학 입시를 준비하는 수험생들에게 정확하고 신뢰성 높은 합격 예측을 제공하는 것입니다.',
     detail: {
@@ -168,7 +168,7 @@ export const projectListData = [
     date: '24.02.19 ~ 24.02.29',
     skills: ['NEXT', 'FIGMA', 'GITHUB'],
     link: [{ LinkIcon: FeatherIcons.Monitor, url: 'https://www.xpla.io/en' }],
-    Member: 1,
+    member: 1,
     description: '',
     detail: {
       프로젝트목표:
@@ -188,7 +188,7 @@ export const projectListData = [
     team_ko: '코드인디자인',
     date: '23.12.13 ~ 24.02.10 ',
     skills: ['VUE', 'STORYBOOK', 'FIGMA', 'GITHUB'],
-    Member: 1,
+    member: 1,
     description: '아파트 관리 정보를 위한 모바일 앱 화면 퍼블리싱 프로젝트 입니다.',
     detail: {
       프로젝트목표:
@@ -218,7 +218,7 @@ export const projectListData = [
       { LinkIcon: GithubIcon, url: 'https://github.com/Green-0lives' },
       { LinkIcon: NotionIcon, url: 'https://juny0429.notion.site/Cocktable-App-b6ae5d9ad1454ae585b6bfae56f6fdcb?pvs=4' },
     ],
-    Member: 7,
+    member: 7,
     description:
       '기존의 칵테일 주문 방식은 메뉴판을 봐도 어떤 맛일지 상상하기 어려웠고, 맛을 잘 모르는 칵테일에 경우 실망하기도 했습니다. 커스텀 기능을 통해 나만의 칵테일을 주문하고, 손님들은 예상치 못한 맛이 아닌, 자신의 입맛에 딱 맞는 칵테일을 즐길 수 있게 될 것입니다.',
     detail: {
@@ -242,7 +242,7 @@ export const projectListData = [
       { LinkIcon: FeatherIcons.Monitor, url: 'https://github.com/juny0429/pjy-portfolio' },
       { LinkIcon: GithubIcon, url: 'https://github.com/juny-0429/pjy-portfolio-v1' },
     ],
-    Member: 7,
+    member: 7,
     description: '반려동물을 주제로 한 클라우드 펀딩 프로젝트입니다. 스프링부트와 마이바티스를 활용한 MVC Model2 기반으로 구현 했습니다.',
     detail: {
       프로젝트소개: '칵테일 주문을 간편하게 하고, 고객이 자신의 취향에 맞는 칵테일을 쉽게 찾을 수 있도록 돕는 애플리케이션입니다.',
@@ -266,7 +266,7 @@ export const projectListData = [
       { LinkIcon: GithubIcon, url: 'https://github.com/2TeamHR' },
       { LinkIcon: NotionIcon, url: 'https://juny0429.notion.site/2-HOT6-87a66064580d498285c07ac16cf378e7?pvs=4' },
     ],
-    Member: 1,
+    member: 1,
     description: '인사관리 그룹웨어를 주제로한 프로젝트입니다. 스프링부트 기반의 RestAPI 서버를 연동한 React.js SPA 애플리케이션이 특징입니다.',
     detail: {
       프로젝트소개: '칵테일 주문을 간편하게 하고, 고객이 자신의 취향에 맞는 칵테일을 쉽게 찾을 수 있도록 돕는 애플리케이션입니다.',
@@ -290,7 +290,7 @@ export const projectListData = [
       { LinkIcon: GithubIcon, url: 'https://github.com/smile-invest/smile-invest' },
       { LinkIcon: NotionIcon, url: 'https://juny0429.notion.site/4-feat-2b4d78de7c1b497da8e1ddd4be91e8b3?pvs=4' },
     ],
-    Member: 7,
+    member: 7,
     description: '반려동물을 주제로 한 클라우드 펀딩 프로젝트입니다. 스프링부트와 마이바티스를 활용한 MVC Model2 기반으로 구현 했습니다.',
     detail: {
       프로젝트소개: '칵테일 주문을 간편하게 하고, 고객이 자신의 취향에 맞는 칵테일을 쉽게 찾을 수 있도록 돕는 애플리케이션입니다.',
