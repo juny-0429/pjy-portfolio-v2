@@ -8,7 +8,7 @@ export const mainSkillsCss = {
     ${commonCss.sectionMinHeight}
 
     ${theme.media.pc} {
-      padding: 150px 0 0;
+      padding: 200px 0 0;
     }
   `,
 

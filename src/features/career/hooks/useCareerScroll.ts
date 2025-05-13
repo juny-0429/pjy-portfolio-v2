@@ -8,10 +8,10 @@ export const useCareerScroll = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ['start end', 'end start'],
+    offset: ['start center', 'end center'],
   });
 
-  const transformedProgress = useTransform(scrollYProgress, [0.2, 1], [0, 1]);
+  const transformedProgress = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   const scaleY = useSpring(transformedProgress, {
     stiffness: 100,
