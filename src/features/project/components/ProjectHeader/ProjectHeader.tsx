@@ -31,7 +31,7 @@ export default function ProjectHeader({ date, title, linkList }: Props) {
             {linkList.map((link, index) => (
               <li key={index}>
                 <Link href={link.url} target="_blank" rel="noopener noreferrer">
-                  <link.LinkIcon width={50} height={50} color={theme.colors.mainLightBlack} />
+                  <link.LinkIcon width={44} height={44} color={theme.colors.mainLightBlack} />
                 </Link>
               </li>
             ))}

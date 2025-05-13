@@ -8,17 +8,18 @@ export const projectHeaderCss = {
     top: 0;
     z-index: 100;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 15px;
     padding: 15px 20px;
     box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 
     background: ${theme.colors.white};
 
     ${theme.media.pc} {
-      gap: 30px;
-      padding: 30px 50px;
+      gap: 24px;
+      padding: 25px 70px;
     }
   `,
 
@@ -55,6 +56,7 @@ export const projectHeaderCss = {
   title: css`
     font-size: 24px;
     font-weight: 600;
+    letter-spacing: 1.5px;
 
     ${theme.media.pc} {
       font-size: 45px;
@@ -65,7 +67,7 @@ export const projectHeaderCss = {
   projectLinkList: css`
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 32px;
 
     svg {
       ${commonCss.hoverBounce}
