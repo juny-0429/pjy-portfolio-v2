@@ -7,8 +7,10 @@ import { commonCss } from '@/styles/common.styles';
 import Image from 'next/image';
 import PjyProfileImage from '@/assets/images/park-junyoung-profile.jpg';
 import { useTranslation } from 'next-i18next';
+import { useIsPc } from '@/hooks/useIsPc';
 
 export default function MainAbout() {
+  const isPc = useIsPc();
   const { t } = useTranslation('about');
   const mbtiList = t('mbtiList', { returnObjects: true }) as string[];
 
@@ -29,7 +31,7 @@ export default function MainAbout() {
         <ul css={mainAboutCss.mbtiList}>
           {mbtiList.map((itemKey: string) => (
             <li key={itemKey}>
-              <Badge color="lightGreen" type="capsule" fillStyle="outline" cssStyle={sizes.badgeSize[23]}>
+              <Badge color="lightGreen" type="capsule" fillStyle="outline" cssStyle={isPc ? sizes.badgeSize[30] : sizes.badgeSize[23]}>
                 {t(itemKey)}
               </Badge>
             </li>
