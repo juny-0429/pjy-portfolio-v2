@@ -3,7 +3,7 @@ export type SkillType =
   | 'CSS'
   | 'SCSS'
   | 'REACT'
-  | 'NEXT'
+  | 'NEXT.js'
   | 'VUE'
   | 'JAVA'
   | 'SPRING'
@@ -75,7 +75,7 @@ export const skillColorMap: { [key in SkillType]: SkillColor } = {
   CSS: 'CSS_COLOR',
   SCSS: 'SCSS_COLOR',
   REACT: 'REACT_COLOR',
-  NEXT: 'NEXT_COLOR',
+  'NEXT.js': 'NEXT_COLOR',
   VUE: 'VUE_COLOR',
   JAVA: 'JAVA_COLOR',
   SPRING: 'SPRING_COLOR',

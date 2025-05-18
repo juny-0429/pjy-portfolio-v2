@@ -124,7 +124,7 @@ export default function ProjectDetail() {
               ))}
           </div>
 
-          <div css={{ height: '400px' }} />
+          <div css={{ height: '200px' }} />
         </div>
 
         {/* Quick Menu */}
