@@ -8,8 +8,8 @@ import PjyPortfolio2Main from '@/assets/images/project/pjy-portfolio-v2.png';
 import PjyPortfolio2Logo from '@/assets/images/project/pjy-portfolio-v2-logo.jpg';
 import CarManagementAppMain from '@/assets/images/project/car-management-app.jpg';
 import CarManagementAppLogo from '@/assets/images/project/car-management-app-logo.png';
-import SampleMain from '@/assets/images/project/sample.jpg';
-import SampleLogo from '@/assets/images/project/sample-logo.png';
+// import SampleMain from '@/assets/images/project/sample.jpg';
+// import SampleLogo from '@/assets/images/project/sample-logo.png';
 import RouterAdminMain from '@/assets/images/project/router-admin.png';
 import RouterAdminLogo from '@/assets/images/project/router-admin-logo.png';
 import ZoneMain from '@/assets/images/project/z-one.png';
@@ -18,7 +18,7 @@ import XplaMain from '@/assets/images/project/xpla.png';
 import XplaLogo from '@/assets/images/project/xpla-logo.png';
 import ApartmentManagementAppMain from '@/assets/images/project/apartment-management-app.jpg';
 import ApartmentManagementAppLogo from '@/assets/images/project/apartment-management-app-logo.jpg';
-import CocktableMain from '@/assets/images/project/cocktable.jpg';
+// import CocktableMain from '@/assets/images/project/cocktable.jpg';
 import PjyPortfolioMain from '@/assets/images/project/pjy-portfolio-v1.png';
 import PjyPortfolioLogo from '@/assets/images/project/pjy-portfolio-v1-logo.jpg';
 import TheTechTitanMain from '@/assets/images/project/the-titan.jpg';
@@ -34,7 +34,7 @@ export const projectListData = [
     logo: BookForestLogo,
     team_en: 'Solo',
     team_ko: '개인',
-    date: '25.01.22 ~',
+    date: '25.01 ~ 25.06',
     skills: ['NEXT.js', 'TYPESCRIPT', 'SCSS', 'RECOIL', 'REACTSCROLL', 'FIGMA', 'GITHUB'],
     link: [
       { LinkIcon: FeatherIcons.Monitor, url: '' },
@@ -72,7 +72,7 @@ export const projectListData = [
     logo: PjyPortfolio2Logo,
     team_en: 'Solo',
     team_ko: '개인',
-    date: '24.08.19 ~ 24.08.09.10',
+    date: '24.08 ~ 24.08.09',
     skills: ['NEXT.js', 'TYPESCRIPT', 'SCSS', 'RECOIL', 'REACTSCROLL', 'FIGMA', 'GITHUB'],
     link: [
       { LinkIcon: FeatherIcons.Monitor, url: 'https://pjy-portfolio-v2.vercel.app/' },
@@ -112,7 +112,7 @@ export const projectListData = [
     logo: CarManagementAppLogo,
     team_en: 'Code in Design',
     team_ko: '코드인디자인',
-    date: '24.07.22 ~ 24.08.09',
+    date: '24.07 ~ 24.08',
     skills: ['REACT', 'TYPESCRIPT', 'EMOTION', 'CHAKRA_UI', 'REACT_QUERY', 'RECOIL', 'FIGMA', 'GITHUB'],
     member: 4,
     description: 'React와 React Query, Google Maps를 사용하여 지도 마커를 통해 지점 관리를 할 수 있는 프로젝트',
@@ -128,33 +128,33 @@ export const projectListData = [
       동작구현: '',
     },
   },
-  {
-    id: 9,
-    title: '청년 배관 - 솔라피 연동',
-    mainImage: SampleMain,
-    logo: SampleLogo,
-    team_en: 'Code in Design',
-    team_ko: '코드인디자인',
-    date: '24.07.01 ~ 24.07.05',
-    skills: ['SOLAPI', 'NEXT.js', 'FIGMA', 'GITHUB'],
-    member: 1,
-    description: '',
-    detail: {
-      프로젝트목표: '',
-      나의역할: '솔라피를 연동하여 고객이 문의하기를 작성할 때, 관리자에게 메시지 알림이 전송되도록 구현하는 것을 목표로 했습니다.',
-      이슈및해결과정: '',
-      회고: '솔라피 연동을 통해 API 통합에 대한 깊은 이해를 쌓을 수 있었으며, 예외 처리와 비동기 작업의 중요성을 다시 한 번 체감하게 되었습니다. 프로젝트 전체를 처음부터 수행하지는 않았지만, 해당 연동 부분에서 효율적인 문제 해결 능력을 발휘할 수 있었습니다.',
-      동작구현: '',
-    },
-  },
+  // {
+  //   id: 9,
+  //   title: '청년 배관 - 솔라피 연동',
+  //   mainImage: SampleMain,
+  //   logo: SampleLogo,
+  //   team_en: 'Code in Design',
+  //   team_ko: '코드인디자인',
+  //   date: '24.07 ~ 24.07',
+  //   skills: ['SOLAPI', 'NEXT.js', 'FIGMA', 'GITHUB'],
+  //   member: 1,
+  //   description: '',
+  //   detail: {
+  //     프로젝트목표: '',
+  //     나의역할: '솔라피를 연동하여 고객이 문의하기를 작성할 때, 관리자에게 메시지 알림이 전송되도록 구현하는 것을 목표로 했습니다.',
+  //     이슈및해결과정: '',
+  //     회고: '솔라피 연동을 통해 API 통합에 대한 깊은 이해를 쌓을 수 있었으며, 예외 처리와 비동기 작업의 중요성을 다시 한 번 체감하게 되었습니다. 프로젝트 전체를 처음부터 수행하지는 않았지만, 해당 연동 부분에서 효율적인 문제 해결 능력을 발휘할 수 있었습니다.',
+  //     동작구현: '',
+  //   },
+  // },
   {
     id: 8,
-    title: '공유기 관리 어드민 페이지',
+    title: '연결 장비 통합관리 시스템',
     mainImage: RouterAdminMain,
     logo: RouterAdminLogo,
     team_en: 'Code in Design',
     team_ko: '코드인디자인',
-    date: '24.06.01 ~ 24.08.01',
+    date: '24.06 ~ 24.08',
     skills: ['VUE', 'TYPESCRIPT', 'SCSS', 'CHART_JS', 'TANSTACK_TABLE', 'VUETIFY', 'PINIA', 'FIGMA', 'GITHUB'],
     member: 2,
     description:
@@ -182,7 +182,7 @@ export const projectListData = [
     logo: ZoneLogo,
     team_en: 'Code in Design',
     team_ko: '코드인디자인',
-    date: '24.03.01 ~ 24.05.31',
+    date: '24.03 ~ 24.05',
     skills: ['NEXT.js', 'RTK', 'AG_GRID', 'CHAKRA_UI', 'STORYBOOK', 'TYPESCRIPT', 'SWIPER', 'FIGMA', 'GITHUB'],
     link: [{ LinkIcon: FeatherIcons.Monitor, url: 'https://z-one.kr/' }],
     member: 3,
@@ -192,13 +192,17 @@ export const projectListData = [
       프로젝트목표:
         ' 입시 데이터 분석을 통해 수집한 정보를 바탕으로, 체육대학 입시를 준비하는 수험생들에게 정확하고 신뢰성 높은 합격 예측을 제공하는 것입니다. Z-ONE은 수험생들이 각 대학의 모집 요강을 손쉽게 열람할 수 있도록 지원하고, 97.6%의 정확도를 자랑하는 합격 예측 시스템과 국내 최대 체육대학 입시 데이터베이스를 바탕으로 한 통합 솔루션을 제공합니다.',
       나의역할: [
-        '공통 컴포넌트를 제작하여 코드의 재사용성과 유지보수성을 향상',
-        '어드민 페이지와 정시•수시 대학 찾기 페이지의 퍼블리싱 & API 연동',
-        '대학 찾기 및 대학 관리 필터 구축',
-        'AI 추천 대학 페이지를 제작',
+        '선임 개발자와 함께 디자인 시안을 바탕으로 공용 컴포넌트를 설계 및 제작',
+        '어드민 페이지의 퍼블리싱을 단독으로 담당하고, 전체 화면 구성 및 스타일 구현',
+        '대학 찾기 페이지와 어드민 페이지의 API 연동 작업 전반을 전담',
+        '필터 항목이 많은 검색 페이지에서 필터 데이터를 쿼리스트링과 동기화하고, 이에 맞는 API 요청 구조를 설계',
+        '사내 보일러플레이트 구조를 빠르게 이해하고,, 선임 개발자의 코드 리뷰를 바탕으로 사내 컨벤션에 맞춰 작업 수행',
       ],
-      이슈및해결과정: '',
-      회고: '',
+      이슈및해결과정: [
+        '필터를 적용해 API 요청을 보내는 과정에서 대량의 필터 데이터를 다루는 문제가 발생했습니다. 필터 항목이 많아지고 데이터가 복잡해지면서, 요청을 효율적으로 처리하는 데 어려움을 겪었습니다. 이를 해결하기 위해 처음으로 useReactForm을 사용하여 필터 데이터를 관리하고, useQueryParams를 통해 쿼리스트링을 동기화한 후 API 요청을 보내는 방식을 선택했습니다. 하지만 useReactForm을 처음 사용하다 보니 필터 데이터의 속성 추가와 입력 데이터 관리에 있어 어려움이 있었고, 이 데이터를 변환하여 쿼리스트링에 등록하고 API 요청 파라미터로 보내는 과정에서도 많은 시행착오가 있었습니다. 특히, 쿼리스트링과 API 요청 파라미터 값이 일치하지 않아 발생하는 동기화 문제를 해결하는 데 시간이 걸렸습니다. 이를 해결하기 위해 필터 데이터를 일관성 있게 관리하는 커스텀 훅을 작성하여 쿼리스트링과 API 요청 간의 동기화를 맞추는 데 성공 3했습니다. 이 과정에서 새로운 라이브러리를 활용한 데이터 처리와 API 요청 관리 방법에 대한 깊은 이해를 쌓을 수 있었습니다.',
+        '입사 후 처음으로 진행한 팀 프로젝트였기 때문에, 기존에 설계된 프로젝트 구조에 적응하고 사내 컨벤션에 맞춰 코드를 작성하는 데 시간이 걸렸습니다. 이를 해결하기 위해 선임 개발자에게 지속적으로 질문하며 배우고, 퇴근 후에는 다른 프로젝트와 비교하며 회사의 프로젝트 구조를 익혀나갔습니다.',
+      ],
+      회고: '이번 프로젝트는 입사 후 처음으로 진행한 팀 프로젝트였습니다. 처음 맡은 팀 프로젝트인 만큼 기존에 설계된 프로젝트 구조와 사내 컨벤션에 적응하는 데 시간이 걸렸습니다. 프로젝트를 진행하면서 선임 개발자에게 PR 리뷰를 받으며 코드의 부족한 부분에 대해 지적받았고, 이를 통해 실시간으로 학습하며 개선해 나갔습니다. 특히, Next.js를 경험하면서 SSR, 폴더 구조 등 다양한 측면에서 많은 것을 배울 수 있었습니다. 주요 이슈는 필터 기능을 적용해 대량의 데이터를 API 요청에 맞게 처리하는 과정에서 발생했습니다. 필터 항목이 많아지면서 이를 쿼리스트링에 동기화하고 API 요청 파라미터로 변환하는 과정에서 어려움을 겪었습니다. 처음으로 useReactForm과 useQueryParams를 사용해 필터 데이터를 관리하고, 이를 기반으로 커스텀 훅을 작성해 API 요청과 쿼리스트링 간의 동기화 문제를 해결했습니다. 이 과정에서 속성 추가 및 데이터 관리에서 시행착오가 있었지만, 문제를 해결하면서 데이터 처리와 API 통신에 대한 이해도를 크게 높일 수 있었습니다. 처음엔 낯설고 어려운 점이 많았지만, 선임 개발자와의 협업과 학습을 통해 프로젝트 전반에 대한 자신감을 키울 수 있었고, 이를 통해 데이터 관리, 동기화, Next.js 활용 능력 등에서 한 단계 성장할 수 있는 계기가 되었습니다.',
       동작구현: '',
     },
   },
@@ -209,7 +213,7 @@ export const projectListData = [
     logo: XplaLogo,
     team_en: 'Code in Design',
     team_ko: '코드인디자인',
-    date: '24.02.19 ~ 24.02.29',
+    date: '24.02 ~ 24.02',
     skills: ['NEXT.js', 'FIGMA', 'GITHUB'],
     link: [{ LinkIcon: FeatherIcons.Monitor, url: 'https://www.xpla.io/en' }],
     member: 1,
@@ -225,54 +229,59 @@ export const projectListData = [
   },
   {
     id: 5,
-    title: '아파트 관리 모바일 웹 퍼블리싱',
+    title: '입주민 대상 아파트 생활 서비스 (모바일 화면 퍼블리싱)',
     mainImage: ApartmentManagementAppMain,
     logo: ApartmentManagementAppLogo,
     team_en: 'Code in Design',
     team_ko: '코드인디자인',
-    date: '23.12.13 ~ 24.02.10 ',
+    date: '23.12 ~ 24.02',
     skills: ['VUE', 'STORYBOOK', 'FIGMA', 'GITHUB'],
     member: 1,
     description: '아파트 관리 정보를 위한 모바일 앱 화면 퍼블리싱 프로젝트 입니다.',
     detail: {
       프로젝트목표:
-        'Vue 3를 활용하여 사용자 경험을 최적화한 모바일 전용 페이지에 퍼블리싱을 작업한 프로젝트로, 반응형 디자인과 컴포넌트 설계, 스토리북 추가 등 모바일 환경에서 잘 작동하도록 작업하였습니다.',
-      나의역할: ['Vue 3를 활용한 프로젝트 초기 설정 및 모바일 최적화 구현.', '재사용성을 고려한 컴포넌트 설계 및 퍼블리싱 진행', 'Storybook을 도입하여 컴포넌트 관리 체계 구축'],
+        'Vue 3의 Composition API를 활용하여, 입주민 대상 아파트 생활 서비스를 위한 모바일 전용 UI를 퍼블리싱한 프로젝트입니다. 반응형 디자인과 컴포넌트 기반 설계를 적용해 모바일 환경에서의 사용성과 유지보수성을 모두 고려하였습니다.',
+      나의역할: [
+        'Vue 3 프로젝트 초기 설정 및 Composition API 기반 컴포넌트 구조 구성',
+        '재사용성과 반응형 레이아웃을 고려한 모바일 전용 UI 퍼블리싱 수행',
+        'Storybook을 도입하여 개발 중인 컴포넌트의 UI 상태를 시각적으로 관리',
+      ],
       이슈및해결과정: [
         '이번 프로젝트는 Vue를 처음 접해보며 진행한 첫 Vue 프로젝트였습니다. 익숙하지 않은 Vue의 문법과 생태계에 적응하는 과정에서 많은 시행착오를 겪었으며, 특히 React와 다른 props 처리 방식에 익숙해지는 데 어려움을 느꼈습니다.',
         '프로젝트 초기 설계 단계에서 유지보수성과 확장성을 고려한 폴더 구조를 어떻게 설계할지 고민이 많았습니다. 다양한 자료를 참고하며 적합한 구조를 찾기 위해 많은 시간을 투자했습니다.',
         '초기에 시멘틱 태그를 제대로 적용하지 않아 웹 접근성 측면에서 부족함이 있었습니다. 이후 시멘틱 태그의 중요성을 인식하고 관련 내용을 학습한 후 프로젝트 전반에 걸쳐 태그를 수정하였으며, 이로 인해 불필요한 시간이 소요된 부분이 있었습니다.',
       ],
-      회고: `이번 프로젝트는 Vue를 처음 경험해보는 중요한 기회 였습니다. Vue는 공식 문서가 잘 정리되어 있어 학습하는 데 큰 도움이 되었고, 기본적인 코드 구조 역시 직관적이라 React와 큰 차이가 없는 부분도 있어 빠르게 적응할 수 있었습니다. 이를 통해 Vue의 생태계를 경험해볼 수 있었던 점은 좋은 기회 였습니다.
-또한, 시멘틱 태그를 처음에 제대로 적용하지 않아 불필요한 작업 시간이 추가되었지만, 이를 통해 기본기를 중요하게 다져야 한다는 교훈을 얻었습니다. 기본적인 부분에 더 신경을 써야 앞으로의 프로젝트에서 시간을 절약할 수 있다는 점을 절실히 느꼈습니다.
-제일 크게 겪은 부분은 Vue에서 발생하는 여러 오류와 이슈를 해결하는 과정이 쉽지 않았습니다. React와 달리 Vue 관련 자료가 상대적으로 적었고, 구글링을 해도 원하는 답변을 찾는 데 어려움을 겪기도 했습니다. 이러한 경험은 자체적인 문제 해결 능력을 키우는 데 많은 도움이 되었고, 주어진 상황에서 스스로 해결책을 찾아가는 방법을 배울 수 있었습니다.`,
+      회고: `Vue 3를 처음으로 본격적으로 다뤄본 프로젝트로, React에 익숙한 상태에서 Vue만의 구조와 문법에 적응해가는 과정을 직접 겪으며 성장할 수 있는 계기가 되었습니다.
+특히 Composition API를 활용하면서 Vue의 선언적 구조와 반응성 설계 방식에 대해 실제로 체득할 수 있었으며, 초기의 시행착오를 통해 문서 기반 학습과 빠른 적용 사이의 균형을 잡는 법을 익혔습니다.
+시멘틱 태그, 폴더 구조, 접근성 같은 프론트엔드 개발자로서의 기본기에 대해 다시 한 번 중요성을 느낀 프로젝트였습니다. 실무에서의 실수와 수정 과정을 통해, 기본을 놓치지 않는 습관이 얼마나 중요한지를 몸소 체감할 수 있었습니다.
+Vue 관련 자료가 제한적이었던 상황 속에서도, 스스로 문제를 정의하고 해답을 찾아가는 문제 해결력을 기를 수 있었던 의미 있는 경험이었습니다.`,
       동작구현: '',
     },
   },
-  {
-    id: 4,
-    title: '[임시 중단] Cocktable(칵테일 테이블오더 앱)',
-    mainImage: CocktableMain,
-    logo: '',
-    team_en: 'Solo',
-    team_ko: '개인',
-    date: '23.8.30 ~',
-    skills: ['TYPESCRIPT', 'REACT', 'SPRING', 'JPA', 'RESTful', 'ORACLE', 'GITHUB'],
-    link: [
-      { LinkIcon: GithubIcon, url: 'https://github.com/Green-0lives' },
-      { LinkIcon: NotionIcon, url: 'https://juny0429.notion.site/Cocktable-App-b6ae5d9ad1454ae585b6bfae56f6fdcb?pvs=4' },
-    ],
-    member: 7,
-    description:
-      '기존의 칵테일 주문 방식은 메뉴판을 봐도 어떤 맛일지 상상하기 어려웠고, 맛을 잘 모르는 칵테일에 경우 실망하기도 했습니다. 커스텀 기능을 통해 나만의 칵테일을 주문하고, 손님들은 예상치 못한 맛이 아닌, 자신의 입맛에 딱 맞는 칵테일을 즐길 수 있게 될 것입니다.',
-    detail: {
-      프로젝트목표: '고객이 메뉴 선택에서 오는 불확실성을 줄이고, 맞춤형 칵테일을 통해 고객 만족도를 높이는 것을 목표로 합니다.',
-      나의역할: '프론트엔드와 백엔드 개발 전반을 담당하며, 주요 기능 설계와 구현, 그리고 데이터베이스 설계 및 관리까지 맡았습니다.',
-      이슈및해결과정: '칵테일의 맛과 특징을 사용자가 쉽게 이해할 수 있도록 UI/UX를 구성하는 데 많은 어려움이 있었습니다. 또한, 실시간 주문 처리와 데이터 동기화 문제도 해결해야 했습니다.',
-      회고: '사용자의 입장에서 생각하고, 최대한 직관적인 인터페이스를 제공하는 것이 중요함을 느꼈습니다. 기술적인 어려움도 많았지만, 이를 해결하며 많은 성장을 이뤘습니다.',
-      동작구현: '주요 기능으로는 칵테일 추천 알고리즘, 주문 내역 실시간 확인, 사용자 리뷰 시스템 등이 있습니다. React로 프론트엔드를 구성하고, Spring과 JPA로 백엔드를 개발했습니다.',
-    },
-  },
+  // {
+  //   id: 4,
+  //   title: '[임시 중단] Cocktable(칵테일 테이블오더 앱)',
+  //   mainImage: CocktableMain,
+  //   logo: '',
+  //   team_en: 'Solo',
+  //   team_ko: '개인',
+  //   date: '23.8.30 ~',
+  //   skills: ['TYPESCRIPT', 'REACT', 'SPRING', 'JPA', 'RESTful', 'ORACLE', 'GITHUB'],
+  //   link: [
+  //     { LinkIcon: GithubIcon, url: 'https://github.com/Green-0lives' },
+  //     { LinkIcon: NotionIcon, url: 'https://juny0429.notion.site/Cocktable-App-b6ae5d9ad1454ae585b6bfae56f6fdcb?pvs=4' },
+  //   ],
+  //   member: 7,
+  //   description:
+  //     '기존의 칵테일 주문 방식은 메뉴판을 봐도 어떤 맛일지 상상하기 어려웠고, 맛을 잘 모르는 칵테일에 경우 실망하기도 했습니다. 커스텀 기능을 통해 나만의 칵테일을 주문하고, 손님들은 예상치 못한 맛이 아닌, 자신의 입맛에 딱 맞는 칵테일을 즐길 수 있게 될 것입니다.',
+  //   detail: {
+  //     프로젝트목표: '고객이 메뉴 선택에서 오는 불확실성을 줄이고, 맞춤형 칵테일을 통해 고객 만족도를 높이는 것을 목표로 합니다.',
+  //     나의역할: '프론트엔드와 백엔드 개발 전반을 담당하며, 주요 기능 설계와 구현, 그리고 데이터베이스 설계 및 관리까지 맡았습니다.',
+  //     이슈및해결과정: '칵테일의 맛과 특징을 사용자가 쉽게 이해할 수 있도록 UI/UX를 구성하는 데 많은 어려움이 있었습니다. 또한, 실시간 주문 처리와 데이터 동기화 문제도 해결해야 했습니다.',
+  //     회고: '사용자의 입장에서 생각하고, 최대한 직관적인 인터페이스를 제공하는 것이 중요함을 느꼈습니다. 기술적인 어려움도 많았지만, 이를 해결하며 많은 성장을 이뤘습니다.',
+  //     동작구현: '주요 기능으로는 칵테일 추천 알고리즘, 주문 내역 실시간 확인, 사용자 리뷰 시스템 등이 있습니다. React로 프론트엔드를 구성하고, Spring과 JPA로 백엔드를 개발했습니다.',
+  //   },
+  // },
   {
     id: 3,
     title: 'PJY Portfolio v1',
@@ -280,7 +289,7 @@ export const projectListData = [
     logo: PjyPortfolioLogo,
     team_en: 'Solo',
     team_ko: '개인',
-    date: '23.3.24 ~ 23.4.10',
+    date: '23.03 ~ 23.04',
     skills: ['REACT', 'SCSS', 'FIGMA', 'GITHUB'],
     link: [
       { LinkIcon: FeatherIcons.Monitor, url: 'https://github.com/juny0429/pjy-portfolio' },
@@ -304,7 +313,7 @@ export const projectListData = [
     logo: TheTechTitanLogo,
     team_en: 'Himedia Academy',
     team_ko: '하이디미어 학원',
-    date: '23.1.17 ~ 23.3.22',
+    date: '23.01 ~ 23.03',
     skills: ['REACT', 'HTML', 'CSS', 'JAVA', 'SPRING', 'RESTful', 'ORACLE', 'MUI', 'FIGMA', 'GITHUB'],
     link: [
       { LinkIcon: GithubIcon, url: 'https://github.com/2TeamHR' },
@@ -328,7 +337,7 @@ export const projectListData = [
     logo: SmileInvestLogo,
     team_en: 'Himedia Academy',
     team_ko: '하이디미어 학원',
-    date: '22.12.5 ~ 23.1.13',
+    date: '22.12 ~ 23.01',
     skills: ['REACT', 'HTML', 'CSS'],
     link: [
       { LinkIcon: GithubIcon, url: 'https://github.com/smile-invest/smile-invest' },
